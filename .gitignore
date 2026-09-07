@@ -1,0 +1,45 @@
+# --- Secrets & environment ---
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets.*
+**/secrets/
+
+# --- macOS / system ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Editor & IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# --- Temporary / scratch files ---
+tmp/
+temp/
+*.tmp
+*.log
+*.bak
+*.orig
+
+# --- Generated / build output (not hand-authored source) ---
+node_modules/
+dist/
+build/
+.cache/
+
+# --- Raw working files (unoptimized originals kept out of the repo) ---
+assets/*-raw.*
+assets/_*
