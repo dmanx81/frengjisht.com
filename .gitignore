@@ -43,3 +43,6 @@ build/
 # --- Raw working files (unoptimized originals kept out of the repo) ---
 assets/*-raw.*
 assets/_*
+
+# Local preview screenshots
+assets/freng_*.png
